@@ -7,7 +7,7 @@ pip install tslearn
 # example
 import pandas as pd
 import numpy as np
-from ramp_score import ramp_score, TDI
+from Metrics_solarforecasting import ramp_score, TDI
 data = pd.read_csv('your data.csv')
 y_true = data['true']
 y_pred = data['pred']
